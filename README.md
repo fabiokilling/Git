@@ -52,3 +52,9 @@ ZY5H0-D3Y8K-M89EZ-AYPEG-MYUA8
 
 # Linux虚拟机下更新VisualStudioCode
 下载.tar.tz文件后进入对应目录，使用tar -xzvf命令解压
+
+# Linux下给予文件夹所有权限
+chmod -R 777
+
+# 移动文件夹
+sudo mv (文件名) /(路径)
