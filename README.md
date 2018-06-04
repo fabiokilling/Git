@@ -62,7 +62,7 @@ sudo mv (文件名) /(路径)
 # 提交过程
 ## 添加ssh公钥
 https://blog.csdn.net/shog808/article/details/76563136
-## 在配置好用户信息后
+## 配置好用户信息
 $ git config --global user.name "John Doe"
 
 $ git config --global useer.email johndoe@example.com
