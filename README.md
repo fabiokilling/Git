@@ -58,3 +58,21 @@ chmod -R 777
 
 # 移动文件夹
 sudo mv (文件名) /(路径)
+
+# 提交过程
+## 添加ssh公钥
+https://blog.csdn.net/shog808/article/details/76563136
+## 在配置好用户信息后
+（$ git config --global user.name "John Doe"
+    
+ $ git config --global useer.email johndoe@example.com)
+## 提交代码
+提交前 scp -p -P 29418 xxx@120.26.125.172:hooks/commit-msg .git/hooks/，xxx是Gerrit用户名，此命令的目的是自动生成changeId；
+
+git add：把要提交的所有修改放到暂存区（Stage）
+
+git commit：一次性把暂存区的所有修改提交到分支
+
+提交时 git push origin HEAD:refs/for/xxx，xxx是真正的远端分支名(dev/dev-stable)
+ 
+ 
