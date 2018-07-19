@@ -75,4 +75,5 @@ git commit：一次性把暂存区的所有修改提交到分支
 
 提交时 git push origin HEAD:refs/for/xxx，xxx是真正的远端分支名(dev/dev-stable)
  
- 
+查看log行数  set -nu
+跳转至最下面一行 GG
